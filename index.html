@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ajmal Anas - MCA student and aspiring software developer. Explore my skills, projects and portfolio.">
+
+    <title>AJfolio | Ajmal Anas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+
+    <div class="background-glow glow-one"></div>
+    <div class="background-glow glow-two"></div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">AJ<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a href="Assets/documents/Ajmal_Anas_Resume_ATS.pdf"
+               class="nav-resume" target="_blank" rel="noopener">
+                My Resume <span>↗</span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+                    <div class="availability">
+                        <span class="status-dot"></span>
+                        Available for opportunities
+                    </div>
+
+                    <p class="intro-text">HELLO, I'M</p>
+
+                    <h1>
+                        Ajmal <span class="gradient-text">Anas</span>
+                    </h1>
+
+                    <h2>
+                        I'm an <span id="typingText">MCA Student</span>
+                        <span class="typing-cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        MCA student from Kerala with hands-on experience in
+                        Python, Django, PHP, Laravel and MySQL. I build
+                        reliable web applications and I'm looking for an
+                        entry-level Software, Python or Laravel Developer role.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">
+                            Explore My Work <span>↗</span>
+                        </a>
+
+                        <a href="contact.html" class="btn btn-outline">
+                            Let's Talk
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/ajmal-anas-446181435"
+                           target="_blank" rel="noopener"
+                           aria-label="LinkedIn">in</a>
+                        <a href="mailto:ajmalanas516@gmail.com"
+                           aria-label="Email">@</a>
+                    </div>
+                </div>
+
+                <!-- Profile Visual -->
+                <div class="hero-visual reveal">
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+
+                    <div class="profile-card">
+                        <div class="profile-top">
+                            <span class="profile-label">MY PROFILE</span>
+                            <span class="profile-menu">•••</span>
+                        </div>
+
+                        <div class="profile-image">
+                            <img src="Assets/images/profile.jpg"
+                                 alt="Ajmal Anas profile photo"
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+
+                            <div class="profile-fallback">AJ</div>
+                        </div>
+
+                        <h3>Ajmal Anas</h3>
+                        <p>MCA Student | Aspiring Developer</p>
+
+                        <div class="profile-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="profile-bottom">
+                            <div>
+                                <strong>04</strong>
+                                <small>Years Studying</small>
+                            </div>
+                            <div>
+                                <strong>03</strong>
+                                <small>Projects</small>
+                            </div>
+                            <div>
+                                <strong>13</strong>
+                                <small>Skills</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-code">
+                        <span class="floating-icon">⌘</span>
+                        <div>
+                            <strong>Clean Code</strong>
+                            <small>Build with purpose</small>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-tech">
+                        <span>✦</span>
+                        <strong>Creative Developer</strong>
+                    </div>
+                </div>
+
+            </div>
+
+            <a href="about.html" class="scroll-indicator">
+                <span></span> Learn more about me
+            </a>
+        </section>
+    </main>
+
+       
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="index.html" class="logo">AJ<span>.</span></a>
+
+            <p>Designed & Developed by <strong>Ajmal Anas</strong></p>
+
+            <p>© <span id="year"></span> AJfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"
+        aria-label="Back to top">↑</button>
+
+    <script src="Assets/js/script.js"></script>
+</body>
+</html>
